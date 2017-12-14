@@ -1,0 +1,26 @@
+{
+  "name": "fastly-backend",
+  "version": "0.0.1",
+  "description": "Script to update Fastly backend definitions in one batch",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippschulte/fastly-backend.git"
+  },
+  "keywords": [
+    "Fastly",
+    "CDN",
+    "Backend",
+    "Origin",
+    "Shielding"
+  ],
+  "author": "Philipp Schulte <philipp.schulte@ymail.com> (http://www.philippschulte.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philippschulte/fastly-backend/issues"
+  },
+  "homepage": "https://github.com/philippschulte/fastly-backend#readme"
+}
