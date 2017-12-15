@@ -1,7 +1,5 @@
 'use strict';
 
-const sleep = (ms = 0) => {
-  return new Promise(r => setTimeout(r, ms));
-};
+const sleep = (ms = 0) => new Promise(r => setTimeout(() => r(ms), ms));
 
 module.exports = sleep;
