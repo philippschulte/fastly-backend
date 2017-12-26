@@ -4,7 +4,7 @@
   "description": "Script to update Fastly backend definitions in one batch",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/philippschulte/fastly-backend/issues"
   },
-  "homepage": "https://github.com/philippschulte/fastly-backend#readme"
+  "homepage": "https://github.com/philippschulte/fastly-backend#readme",
+  "dependencies": {
+    "fastly-promises": "0.6.0"
+  }
 }
