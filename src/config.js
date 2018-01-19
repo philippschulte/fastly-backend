@@ -6,7 +6,7 @@ const config = {
   body: {
     shield: 'mdw-il-us'
   },
-  infected(backend) {
+  affected(backend) {
     return backend.shield === 'ord-il-us';
   }
 };
