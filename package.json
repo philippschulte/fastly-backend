@@ -24,6 +24,9 @@
     "url": "https://github.com/philippschulte/fastly-backend/issues"
   },
   "homepage": "https://github.com/philippschulte/fastly-backend#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "dependencies": {
     "fastly-promises": "0.8.0"
   }
