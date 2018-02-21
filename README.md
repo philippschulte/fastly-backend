@@ -218,6 +218,8 @@ const config = {
 };
 ```
 
+**Please keep in mind that you can erase your entire cache from the shield, if you switch your shield location. This will increase the requests to your origin server.**
+
 ### Update Connection Timeouts
 
 The following configuration updates the `connect_timeout`, `first_byte_timeout`, and `between_bytes_timeout` fields back to the Varnish default:
